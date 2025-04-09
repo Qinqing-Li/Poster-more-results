@@ -1,25 +1,13 @@
 # Poster-more-results
 
-Hi! This repository contains visualisation results of brain tumour segmentation from fused MRI modalities.
 
-📂 Folders
+**Hi!** 👋 This repository contains some visual results for my poster *"Performance comparison of multi-modality MRI segmentation models"*. It compares two different image fusion methods — **DDcGAN** and **SwinFusion** — for the task of segmenting brain tumours from MRI scans.<br><br>
 
-`ddcgan_visualisations/`
-    Contains 500 PNG images (from 50 patients) showing:
 
-    DDcGAN-fused images (T2-FLAIR + T1CE)
+The `ddcgan_visualisations/` and `swin_fusion_visualisations/` folders each contain 500 PNG images (50 patients × 10 slices). Each sample shows:
 
-    Ground truth
+- 🖼️ the fused image (T2-Flare image + T1CE image),
 
-    Attention U-Net predictions
+- 🎯 the ground truth segmentation,
 
-`swin_fusion_visualisations/`
-    Contains 500 PNG images (same 50 patients) showing:
-
-        SwinFusion-fused images (T2-FLAIR + T1CE)
-
-        Ground truth
-
-        Attention U-Net predictions
-
-Each PNG has 3 panels: Fused Input, Ground Truth, and Prediction.
+- 🤖 the tumour segmentation predicted by the segmentation model.
