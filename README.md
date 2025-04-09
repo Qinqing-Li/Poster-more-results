@@ -1,5 +1,4 @@
-# Poster-more-results
-
+# Read me
 
 **Hi!** 👋 This repository contains some visual results for my poster *"Performance comparison of multi-modality MRI segmentation models"*. It compares two different image fusion methods — **DDcGAN** and **SwinFusion** — for the task of segmenting brain tumours from MRI scans.<br><br>
 
